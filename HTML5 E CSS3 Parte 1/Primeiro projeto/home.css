@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+html{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+
+}
+h1{
+    margin-left: 30px;
+}
+#banner{
+    width: 100%;
+    height: 500px;
+}
+.principal {
+    background-color: #cccc;
+    padding:30px ;
+}
+
+.centralizado{
+    text-align: center;
+}
+#missao{
+    font-size: 20px;
+}
+em strong {
+    color: red;
+}
+.itens{
+    font-style: italic;
+}
+h2{
+    text-align: center;
+}
+.beneficios{
+    background-color: white;
+    padding: 20px;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-left: 20px;
+}
+#bene{
+    width: 50%;
+
+}
