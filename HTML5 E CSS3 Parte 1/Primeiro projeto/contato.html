@@ -24,16 +24,16 @@
     <main>
         <form>
             <label for="nome">Nome:</label>
-            <input class="padrão" type="text" id="nome">
+            <input class="padrão" type="text" id="nome" required placeholder="Digite seu nome">
 
-            <label for="email">Email:</label>
-            <input class="padrão" type="text"  id="email">
+            <label for="email" >Email:</label>
+            <input class="padrão" type="email"  id="email" required placeholder="seuemail@dominio.com">
 
             <label for="numero">Numero:</label>
-            <input class="padrão" type="text" id="numero">
+            <input class="padrão" type="tel" id="numero" required placeholder="(00) 00000-0000">
 
             <label for="mensagem">Mensagem:</label>
-            <textarea  id="mensagem" cols="70" rows="10"></textarea>
+            <textarea  id="mensagem" cols="70" rows="10" required placeholder="Envie uma mensagem"></textarea>
 
             <div>
                 <p>Como prefere o nooso contato?</p>
@@ -41,7 +41,7 @@
 
                 <label for="radio-telefone"><input type="radio" name="contato" value="telefone"   id="radio-telefone";> Telefone</label>
 
-                <label for="radio-whatsapp"> <input type="radio" name="contato" value="whatsapp"   id="radio-whatsapp";> Whatsapp</label>
+                <label for="radio-whatsapp"> <input type="radio" name="contato" value="whatsapp"   id="radio-whatsapp"; checked> Whatsapp</label>
             </div>
             <div>
                 <p>Qual horario Você prefere ser atendido? </p>
@@ -51,7 +51,7 @@
                     <option>Noite</option>
                 </select>
             </div>
-            <label ><input class="checkbox" type="checkbox"> Gostaria de receber nossas novidades por email?</label>
+            <label ><input class="checkbox" type="checkbox" checked> Gostaria de receber nossas novidades por email?</label>
 
             <input type="submit"  value="Enviar formulario">
         </form>
