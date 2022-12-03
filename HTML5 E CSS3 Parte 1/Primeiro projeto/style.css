@@ -116,3 +116,16 @@ form label, form legend{
     color: azure;
     transform: scale(1.2);
 }
+table{
+    margin-bottom: 40px;
+}
+th{
+    background-color: rgb(65, 64, 64);
+    color: white;
+    font-weight: bold;
+}
+ 
+td, th {
+    padding: 10px 20px;
+    border: 0.5px solid black ;
+}
