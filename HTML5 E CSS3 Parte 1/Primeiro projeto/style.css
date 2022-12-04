@@ -136,6 +136,9 @@ td, th {
 .banner{
     width: 100%;
 }
+.beneficios{
+    margin: 3em;
+}
 .titulo-principal{
     text-align: center;
     font-size: 2em;
@@ -152,7 +155,7 @@ td, th {
     font-style: italic;
 }
 .bene{
-    width: 40%;
+    width: 60%;
 }
 .ultensilios{
     width: 120px;
@@ -160,6 +163,22 @@ td, th {
     float: left;
     margin: 0 20px 20px 0;
 }
+.conteudo-beneficios{
+    width:640px ;
+    margin: 0 auto;
+}
+.lista-beneficios{
+ width: 40%;
+ display: inline-block;
+ vertical-align: top;
+}
+.itens{
+    line-height: 1.5em;
+}
+.itens:first-child{
+    font-weight: bold;
+}
+
 .localidade{
     text-align: center;
 }
