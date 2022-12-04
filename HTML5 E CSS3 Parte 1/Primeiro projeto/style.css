@@ -129,3 +129,31 @@ td, th {
     padding: 10px 20px;
     border: 0.5px solid black ;
 }
+/*Pagina inicial da barbearia*/
+.banner{
+    width: 100%;
+}
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+.principal p {
+    margin: 0 0 1em;
+}
+.principal strong{
+    font-weight: bold ;
+}
+.principal em{
+    font-style: italic;
+}
+.bene{
+    width: 60%;
+}
+.ultensilios{
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
