@@ -166,6 +166,7 @@ td, th {
     width: 60%;
     opacity: 1;
     transition: 440ms;
+    box-shadow: 10px 10px 10px #000000;
 }
 .bene:hover{
     opacity: 0.3;
