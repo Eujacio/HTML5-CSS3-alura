@@ -164,6 +164,11 @@ td, th {
 }
 .bene{
     width: 60%;
+    opacity: 1;
+    transition: 440ms;
+}
+.bene:hover{
+    opacity: 0.3;
 }
 .ultensilios{
     width: 120px;
