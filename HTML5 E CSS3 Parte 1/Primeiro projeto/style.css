@@ -213,3 +213,8 @@ td, th {
     text-align: center;
     margin: 3em 0 5em 0;
 }
+@media screen and (max-width: 480px) {
+body{
+    background-color: #f3291b;
+}
+}
