@@ -136,7 +136,7 @@ td, th {
     width: 100%;
 }
 .beneficios{
-    padding: 3em;
+    padding: 1em;
    background-color: #888888;
 }
 .titulo-principal{
@@ -211,5 +211,16 @@ td, th {
 }
 .viedo-corte{
     text-align: center;
-    margin: 3em 0 5em 0;
+    margin: 3em 0 0;
+}
+@media screen and (max-width: 490px){
+ .caixa, .conteudo-beneficios, .principal, .conteudo-mapa, .viedo-corte{
+    width: auto;
+ }
+  h1{
+    text-align: center;
+}
+nav{
+    position: static;
+}
 }
