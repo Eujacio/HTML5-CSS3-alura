@@ -16,6 +16,9 @@ nav{
     top: 110px;
     right: 0px;
 }
+.lista-beneficios, .bene{
+    width: 100%;
+}
 nav li{
     display: inline;
     margin-left: 15px;
