@@ -63,6 +63,7 @@ main{
 .produtos li:hover h2{
     font-size: 40px;
 }
+
 .produtos h2{
     font-size: 30px;
     font-weight: bold;
