@@ -8,6 +8,7 @@ header{
     display: flex; 
     justify-content: end;
 }
+
 ul{
     display: flex;
 }
@@ -32,9 +33,9 @@ header a{
 .paginas{
     margin: 30px 40px 30px 40px;
 }
-#sobre{
-    text-transform: uppercase;
+#inicial{
+    text-decoration: none;
+    padding: 30px 30px 30px 12px;
     font-weight: bold;
-    height: min-content;
-    vertical-align: baseline;
+    font-size: 1.5em;
 }
