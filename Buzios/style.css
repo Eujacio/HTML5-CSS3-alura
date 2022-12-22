@@ -2,20 +2,23 @@
 
 body{
     background-image: url('https://a.cdn-hotels.com/gdcs/production117/d910/2ef9c8f0-2365-4bd8-af33-48c6b3492585.jpg');
-    color: blue;
+   
    
 }
 header{
-    display: inline; 
-    justify-content: end;
+    display: inline-flex; 
+
 }
 
 ul{
     display: flex;
+    justify-content: center;
 }
 .icones{
     width: 30px;
     height: 30px;
+    padding: 20px;
+    
 }
 
 li{
