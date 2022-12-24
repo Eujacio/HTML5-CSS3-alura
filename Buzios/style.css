@@ -13,6 +13,7 @@ header{
 ul{
     display: flex;
     justify-content: center;
+    
 }
 .icones{
     width: 30px;
@@ -25,6 +26,7 @@ li{
     margin: 30px 12px 30px 12px;
     font-weight: bold;
     font-size: 1.5em;
+   
 }
 header a{
     text-transform: uppercase;
