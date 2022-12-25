@@ -31,7 +31,15 @@ header a{
 .paginas{
     margin: 30px 40px 30px 40px;
 }
+main {
+    display: inline;
+}
 .fotos{
     width: 400px;
     height: 200px;
+    margin: 20px;
+    position: relative;
+}
+.fotos:hover{
+    border:  solid red;
 }
