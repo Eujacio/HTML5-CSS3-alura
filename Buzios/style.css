@@ -23,22 +23,17 @@ li{
     margin: 30px 12px 30px 12px;
     font-weight: bold;
     font-size: 1.5em;
+    text-decoration: none;
    
 }
 header a{
     text-transform: uppercase;
     text-decoration: none;
-    color: rgb(135, 25, 25);
+    color: black;
 }
  header a:hover{
     color: honeydew;
 }
 .paginas{
     margin: 30px 40px 30px 40px;
-}
-#inicial{
-    text-decoration: none;
-    padding: 30px 30px 30px 12px;
-    font-weight: bold;
-    font-size: 1.5em;
 }
