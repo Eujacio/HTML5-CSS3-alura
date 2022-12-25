@@ -6,20 +6,17 @@ body{
    
 }
 header{
-    display: inline-flex; 
-
+    display: inline; 
+    
 }
 
 ul{
     display: flex;
-    justify-content: center;
-    
+    justify-content: end;  
 }
 .icones{
     width: 30px;
     height: 30px;
-    padding: 20px;
-    
 }
 
 li{
