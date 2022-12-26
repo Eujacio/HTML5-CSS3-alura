@@ -30,6 +30,7 @@ header a{
 }
 .paginas{
     margin: 30px 40px 30px 40px;
+    position: sticky;
 }
 main {
     display: inline;
@@ -37,9 +38,9 @@ main {
 .fotos{
     width: 400px;
     height: 200px;
-    margin: 20px;
+    border:  solid 4px rgb(255, 255, 255);
     position: relative;
 }
 .fotos:hover{
-    border:  solid red;
+    border:  solid 4px rgb(255, 255, 0);
 }
