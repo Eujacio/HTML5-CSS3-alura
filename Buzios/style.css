@@ -4,17 +4,19 @@
     background-image: url('https://a.cdn-hotels.com/gdcs/production117/d910/2ef9c8f0-2365-4bd8-af33-48c6b3492585.jpg');
 }
 header{
-    display: inline;   
+    display: flex;   
+    justify-content: space-between;
 }
-ul{
+titulos{
     display: flex;
     justify-content: end;  
 }
 .icones{
     width: 30px;
     height: 30px;
+    padding: 10px;
 }
-li{
+.paginas{
     margin: 30px 12px 30px 12px;
     font-weight: bold;
     font-size: 1.5em;
