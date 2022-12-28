@@ -42,3 +42,14 @@ main {
 .fotos:hover{
     border:  solid 4px rgb(255, 255, 0);
 }
+#dpricipal{
+    display: flex;
+}
+.fotos-albuns{
+    text-align: center;   
+}
+.fotos-albuns > h2{
+    font-size: 1.3em;
+    color: black;
+    font-weight: bold;
+}
